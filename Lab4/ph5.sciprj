@@ -1,0 +1,171 @@
+SciDAVis 1.22.0 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+2248
+<table creation_time="2022-28-04 22:23:57:000" caption_spec="%n%C{ - }%c" name="Таблица1" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2022-28-04 22:23:57:285" caption_spec="%n%C{ - }%c" name="Время, с" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-28-04 22:23:57:285" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-28-04 22:23:57:285" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.6000000000000000e+01</row><row type="TypeDouble" index="1" invalid="no">7.9299999999999997e+01</row><row type="TypeDouble" index="2" invalid="no">1.2930000000000001e+02</row><row type="TypeDouble" index="3" invalid="no">1.8900000000000000e+02</row><row type="TypeDouble" index="4" invalid="no">2.6460000000000002e+02</row></column><column creation_time="2022-28-04 22:23:57:285" caption_spec="%n%C{ - }%c" name="Амплитуда, град" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-28-04 22:23:57:285" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-28-04 22:23:57:285" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.5000000000000000e+01</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">5.0000000000000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	0	0	602	448	
+
+</table>
+<table>
+2377
+<table creation_time="2022-29-04 00:15:07:000" caption_spec="%n%C{ - }%c" name="Таблица2" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2022-29-04 00:15:07:136" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-29-04 00:15:07:136" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-29-04 00:15:07:136" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0400000000000000e+02</row><row type="TypeDouble" index="1" invalid="no">1.1800000000000000e+02</row><row type="TypeDouble" index="2" invalid="no">1.3700000000000000e+02</row><row type="TypeDouble" index="3" invalid="no">1.6000000000000000e+02</row><row type="TypeDouble" index="4" invalid="no">1.8700000000000000e+02</row><row type="TypeDouble" index="5" invalid="no">2.1700000000000000e+02</row></column><column creation_time="2022-29-04 00:15:07:139" caption_spec="%n%C{ - }%c" name="T^2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-29-04 00:15:07:139" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-29-04 00:15:07:139" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.7000000000000002e+00</row><row type="TypeDouble" index="1" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">3.2000000000000002e+00</row><row type="TypeDouble" index="3" invalid="no">3.7999999999999998e+00</row><row type="TypeDouble" index="4" invalid="no">4.4000000000000004e+00</row><row type="TypeDouble" index="5" invalid="no">5.0000000000000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	203	-3	602	448	
+
+</table>
+<multiLayer>
+График3	1	1	29.04.2022 12:06:17
+geometry	891	6	514	452	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	435	289
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Амплитуда от времени	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	t, сек	Амплитуда, град			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Таблица1_Время, с	Таблица1_Амплитуда, град	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+FunctionCurve	0,LinearПриближение1,x,36,264.6	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	82084720	3148694	1
+<formula>
+B=27.163601582914
+A=-0.0871068575115582
+
+A*x+B
+</formula>
+scale	0	0	30	0	8	5	0	0
+scale	1	0	30	0	8	5	0	0
+scale	2	0	300	0	8	5	0	0
+scale	3	0	300	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	162.796208530806	27.9858657243816	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Амплитуда, град	\c{2}LinearПриближение1	</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+График2	1	1	29.04.2022 12:09:46
+geometry	1086	106	514	452	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	430	289
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	T^2 от I	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	T^2	I			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Таблица2_I	Таблица2_T^2	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+FunctionCurve	0,LinearПриближение1,x,104,217	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	114065904	8	1
+<formula>
+B=0.511025366331959
+A=0.0206217202621974
+
+A*x+B
+</formula>
+scale	0	2.5	5.5	0	8	5	0	0
+scale	1	2.5	5.5	0	8	5	0	0
+scale	2	100	220	0	8	5	0	0
+scale	3	100	220	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	157.841726618705	3.13604240282686	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}T^2	\c{2}LinearПриближение	</legend>
+</graph>
+</multiLayer>
+<log>
+[28.04.2022 22:31:52	Plot: ''??????1'']
+Линейная регрессия приближение по набору данных: Таблица1_Амплитуда, град, используя функцию: A*x+B
+Стандартные отклонения по Y: Неизвестно
+От значения по x = 36 до значения по x = 264,6
+B (пересечение с Y) = 27,163601582914 +/- 0,908132681590607
+A (наклон) = -0,0871068575115582 +/- 0,00563119546947361
+--------------------------------------------------------------------------------------
+Chi^2 = 3,09561238348824
+R^2 = 0,987617550466047
+---------------------------------------------------------------------------------------
+[29.04.2022 0:18:41	Plot: ''??????2'']
+Линейная регрессия приближение по набору данных: Таблица2_T^2, используя функцию: A*x+B
+Стандартные отклонения по Y: Неизвестно
+От значения по x = 32 до значения по x = 60
+B (пересечение с Y) = -0,0243419106773143 +/- 0,123324817872508
+A (наклон) = 0,083318544809228 +/- 0,00270787527908822
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0165276545400769
+R^2 = 0,995792705674991
+---------------------------------------------------------------------------------------
+[29.04.2022 12:07:32	Plot: ''??????3'']
+Линейная регрессия приближение по набору данных: Таблица1_Амплитуда, град, используя функцию: A*x+B
+Стандартные отклонения по Y: Неизвестно
+От значения по x = 36 до значения по x = 264,6
+B (пересечение с Y) = 27,163601582914 +/- 0,908132681590607
+A (наклон) = -0,0871068575115582 +/- 0,00563119546947361
+--------------------------------------------------------------------------------------
+Chi^2 = 3,09561238348824
+R^2 = 0,987617550466047
+---------------------------------------------------------------------------------------
+[29.04.2022 12:10:27	Plot: ''??????2'']
+Линейная регрессия приближение по набору данных: Таблица2_T^2, используя функцию: A*x+B
+Стандартные отклонения по Y: Неизвестно
+От значения по x = 104 до значения по x = 217
+B (пересечение с Y) = 0,511025366331959 +/- 0,13093994076539
+A (наклон) = 0,0206217202621974 +/- 0,000824934122606219
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0249853830370599
+R^2 = 0,993639698845042
+---------------------------------------------------------------------------------------
+</log>
